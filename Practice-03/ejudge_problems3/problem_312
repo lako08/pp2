@@ -1,0 +1,16 @@
+data = input().split()
+emp_type = data[0]
+
+name = data[1]
+base_salary = int(data[2])
+
+if emp_type == "Manager":
+    bonus_percent = float(data[3])
+    total = base_salary * (1 + bonus_percent / 100)
+elif emp_type == "Developer":
+    completed_projects = int(data[3])
+    total = base_salary + completed_projects * 500
+else:  # Intern
+    total = base_salary
+
+print(f"Name: {name}, Total: {total:.2f}")

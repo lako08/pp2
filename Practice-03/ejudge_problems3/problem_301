@@ -1,0 +1,8 @@
+s = input()
+
+for d in s:
+    if int(d) % 2 != 0:
+        print("Not valid")
+        break
+else:
+    print("Valid")

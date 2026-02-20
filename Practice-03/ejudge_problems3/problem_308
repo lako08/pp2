@@ -1,0 +1,4 @@
+s=int(input())
+p=3.14159
+v=s**2*p
+print(round(v,2))
