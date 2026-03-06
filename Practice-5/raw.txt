@@ -1,0 +1,9 @@
+Receipt #4582
+Date: 2026-03-05
+
+Bread 450
+Milk 600
+Chocolate 1200
+Apple Juice 950
+
+Total: 3200

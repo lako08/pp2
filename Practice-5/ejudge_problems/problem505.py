@@ -1,0 +1,8 @@
+import re
+
+text = input()
+
+if re.match(r"^[A-Za-z].*\d$", text):
+    print("Yes")
+else:
+    print("No")
