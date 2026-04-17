@@ -1,4 +1,3 @@
--- 3. Процедура добавления или обновления (Upsert)
 CREATE OR REPLACE PROCEDURE upsert_contact(p_name varchar, p_phone varchar)
 LANGUAGE plpgsql AS $$
 BEGIN
@@ -10,7 +9,7 @@ BEGIN
 END;
 $$;
 
--- 4. Процедура удаления
+
 CREATE OR REPLACE PROCEDURE delete_contact_proc(p_val varchar)
 LANGUAGE plpgsql AS $$
 BEGIN

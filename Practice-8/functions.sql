@@ -1,4 +1,3 @@
--- 1. Функция поиска по паттерну
 CREATE OR REPLACE FUNCTION get_contacts_by_pattern(p_search text)
 RETURNS TABLE(id int, user_name varchar, phone_number varchar) AS $$
 BEGIN
@@ -9,7 +8,7 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
--- 2. Функция пагинации
+
 CREATE OR REPLACE FUNCTION get_contacts_paged(p_limit int, p_offset int)
 RETURNS TABLE(id int, user_name varchar, phone_number varchar) AS $$
 BEGIN
